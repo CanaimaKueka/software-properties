@@ -1,0 +1,3 @@
+debian/tmp/usr/share/software-properties/designer
+debian/tmp/usr/lib/python*/site-packages/softwareproperties/kde/*.py
+debian/tmp/usr/bin/software-properties-kde

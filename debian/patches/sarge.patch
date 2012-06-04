@@ -1,0 +1,15 @@
+Index: software-properties-0.60.debian/softwareproperties/gtk/DialogAdd.py
+===================================================================
+--- software-properties-0.60.debian.orig/softwareproperties/gtk/DialogAdd.py	2010-10-25 23:28:21.486767481 +0200
++++ software-properties-0.60.debian/softwareproperties/gtk/DialogAdd.py	2010-10-25 23:29:27.358761295 +0200
+@@ -55,8 +55,8 @@
+                                    distro.codename,
+                                    distro.source_template.components[0].name)
+     else:
+-        example = "deb http://ftp.debian.org sarge main"
+-    # L10N: the example is of the format: deb http://ftp.debian.org sarge main
++        example = "deb http://ftp.debian.org squeeze main"
++    # L10N: the example is of the format: deb http://ftp.debian.org squeeze main
+     msg = _("The APT line includes the type, location and components of a "
+             "repository, for example  '%s'.") % ("<i>%s</i>" % example)
+     self.label_example_line.set_label(msg)

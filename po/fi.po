@@ -1,0 +1,542 @@
+# software-properties's Finnish translation.
+# Copyright (C) 2005-2008 Timo Jyrinki
+# This file is distributed under the same license as the software-properties package.
+# Timo Jyrinki <timo.jyrinki@iki.fi>, 2005-2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-properties\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-03 22:49+0300\n"
+"PO-Revision-Date: 2008-09-03 22:47+0300\n"
+"Last-Translator: Timo Jyrinki <timo.jyrinki@iki.fi>\n"
+"Language-Team: Finnish <ubuntu-fi@lists.ubuntu.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/software-properties.desktop.in.h:1
+msgid "Configure the sources for installable software and updates"
+msgstr "Muokkaa asennettavien ohjelmien ja päivitysten lähteitä"
+
+#: ../data/software-properties.desktop.in.h:2
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:464
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:465
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:517
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:537
+#: ../data/glade/main.glade.h:17
+msgid "Software Sources"
+msgstr "Ohjelmalähteet"
+
+#: ../software-properties-gtk:76 ../software-properties-kde:67
+msgid "You need to be root to run this program"
+msgstr "Sinun täytyy olla pääkäyttäjä ajaaksesi tämän ohjelman"
+
+#: ../softwareproperties/distro.py:28
+msgid ""
+"<i>To improve the user experience of Ubuntu please take part in the "
+"popularity contest. If you do so the list of installed software and how "
+"often it was used will be collected and sent anonymously to the Ubuntu "
+"project on a weekly basis.\n"
+"\n"
+"The results are used to improve the support for popular applications and to "
+"rank applications in the search results.</i>"
+msgstr ""
+"<i>Parantaaksesi Ubuntun käytettävyyttä voit osallistua suosiokilpailuun. "
+"Tällöin asennetuista ohjelmista ja ohjelmien käyttötiheydestä kerätään "
+"luetteloa, ja tiedot lähetetään nimettömänä Ubuntu-projektille viikoittain.\n"
+"\n"
+"Tuloksia käytetään suosittujen ohjelmien tuen parantamiseksi sekä "
+"hakutulosten järjestämiseksi ohjelmia haettaessa.</i>"
+
+#: ../softwareproperties/distro.py:37
+msgid ""
+"<i>To improve the user experiece of Debian please take part in the "
+"popularity contest. If you do so the list of installed software and how "
+"often it was used will be collected and sent anonymously to the Debian "
+"project.\n"
+"\n"
+"The results are used to optimise the layout of the installation CDs."
+msgstr ""
+"<i>Parantaaksesi Debianin käytettävyyttä voit osallistua suosiokilpailuun. "
+"Tällöin asennetuista ohjelmista ja ohjelmien käyttötiheydestä kerätään "
+"luetteloa, ja tiedot lähetetään nimettömänä Debian-projektille.\n"
+"\n"
+"Tuloksia käytetään asennus-CD-levyjen rakenteen optimoimiseen.</i>"
+
+#: ../softwareproperties/distro.py:44
+msgid ""
+"Submit the list of installed software and how often it is is used to the "
+"distribution project."
+msgstr ""
+"Lähetä jakeluprojektille luettelo asennetuista ohjelmista ja tiedot niiden "
+"käyttötiheydestä."
+
+#: ../softwareproperties/kde/DialogMirror.py:68
+msgid "Mirror"
+msgstr "Peilipalvelin"
+
+#: ../softwareproperties/kde/DialogMirror.py:214
+#: ../softwareproperties/kde/DialogMirror.py:215
+msgid "Testing Mirrors"
+msgstr "Testataan peilipalvelimia"
+
+#: ../softwareproperties/kde/DialogMirror.py:214
+#: ../softwareproperties/kde/DialogMirror.py:217
+msgid "Cancel"
+msgstr "Peru"
+
+#. update_days = apt_pkg.Config.FindI(softwareproperties.CONF_MAP["autoupdate"])
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:171
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:149
+msgid "Daily"
+msgstr "Päivittäin"
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:172
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:150
+msgid "Every two days"
+msgstr "Joka toinen päivä"
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:173
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:151
+msgid "Weekly"
+msgstr "Viikoittain"
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:174
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:152
+msgid "Every two weeks"
+msgstr "Joka toinen viikko"
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:181
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:161
+#, python-format
+msgid "Every %s days"
+msgstr "%s päivän välein"
+
+#. TRANS: %s stands for the distribution name e.g. Debian or Ubuntu
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:223
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:229
+#, python-format
+msgid "%s updates"
+msgstr "%s-päivitykset"
+
+#. TRANS: %s stands for the distribution name e.g. Debian or Ubuntu
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:227
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:232
+#, python-format
+msgid "%s Software"
+msgstr "%s-ohjelmistot"
+
+#. TRANSLATORS: Label for the components in the Internet section
+#. first %s is the description of the component
+#. second %s is the code name of the comp, eg main, universe
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:244
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:246
+#, python-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#. add a separator and the option to choose another mirror from the list
+#. #FIXME server_store.append(["sep", None, True])
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:296
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:401
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:358
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:409
+msgid "Other..."
+msgstr "Muu…"
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:509
+msgid "Key"
+msgstr "Avain"
+
+#. L10N: the example is of the format: deb http://ftp.debian.org sarge main
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:620
+#, python-format
+msgid ""
+"<p><b>Enter the complete APT line of the<br /> repository that you want to "
+"add as source</b></p><p>The APT line includes the type, location and "
+"components of a repository,<br /> for example <i>\"%s\"</i>.</p>"
+msgstr ""
+"<p><b>Kirjoita haluamasi ohjelmalähteen<br/> koko APT-rivi</b></p><p>APT-"
+"rivi sisältää ohjelmalähteen tyypin, sijainnin ja komponentit,<br /> "
+"esimerkiksi <i>\"%s\"</i>.</p>"
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:621
+msgid "Add APT repository"
+msgstr "Lisää APT-ohjelmalähde"
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:658
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:733
+msgid "Import key"
+msgstr "Tuo avain"
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:661
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:743
+#: ../softwareproperties/gtk/DialogAptKey.py:88
+msgid "Error importing selected file"
+msgstr "Virhe tuotaessa valittua avainta"
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:662
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:744
+#: ../softwareproperties/gtk/DialogAptKey.py:89
+msgid "The selected file may not be a GPG key file or it might be corrupt."
+msgstr ""
+"Valittu tiedosto ei ole kelvollinen GPG-avaintiedosto, tai se on "
+"vahingoittunut."
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:676
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:757
+#: ../softwareproperties/gtk/DialogAptKey.py:101
+msgid "Error removing the key"
+msgstr "Virhe poistettaessa avainta"
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:677
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:758
+#: ../softwareproperties/gtk/DialogAptKey.py:102
+msgid "The key you selected could not be removed. Please report this as a bug."
+msgstr ""
+"Valitsemaasi avainta ei voitu poistaa. Ole hyvä ja luo tästä virheilmoitus."
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:693
+msgid "Reload"
+msgstr "Lataa uudestaan"
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:694
+msgid "Close"
+msgstr "Sulje"
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:695
+#: ../data/glade/dialogs.glade.h:4
+msgid ""
+"<b><big>The information about available software is out-of-date</big></b>\n"
+"\n"
+"To install software and updates from newly added or changed sources, you "
+"have to reload the information about available software.\n"
+"\n"
+"You need a working internet connection to continue."
+msgstr ""
+"<b><big>Tiedot saatavilla olevista ohjelmista ovat vanhentuneita</big></b>\n"
+"\n"
+"Tiedot saatavilla olevista ohjelmista täytyy ladata uudelleen ohjelmien tai "
+"päivitysten asentamiseksi uusista tai muuttuneista ohjelmalähteistä.\n"
+"\n"
+"Tarvitset toiminnassa olevan Internet-yhteyden jatkaaksesi."
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:723
+msgid "CD Error"
+msgstr "CD-virhe"
+
+#: ../softwareproperties/kde/SoftwarePropertiesKDE.py:724
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:803
+#, python-format
+msgid ""
+"<big><b>Error scanning the CD</b></big>\n"
+"\n"
+"%s"
+msgstr ""
+"<big><b>Virhe luettaessa CD-levyä</b></big>\n"
+"\n"
+"%s"
+
+#: ../softwareproperties/kde/CdromProgress.py:50
+msgid "CD Name"
+msgstr "CD-levyn nimi"
+
+#: ../softwareproperties/kde/CdromProgress.py:50
+#: ../softwareproperties/gtk/CdromProgress.py:58
+msgid "Please enter a name for the disc"
+msgstr "Syötä nimi levylle"
+
+#: ../softwareproperties/kde/CdromProgress.py:54
+msgid "Insert Disk"
+msgstr "Aseta levy"
+
+#: ../softwareproperties/kde/CdromProgress.py:54
+#: ../softwareproperties/gtk/CdromProgress.py:74
+msgid "Please insert a disk in the drive:"
+msgstr "Aseta levy asemaan:"
+
+#: ../softwareproperties/kde/DialogEdit.py:40
+msgid "Binary"
+msgstr "Binääri"
+
+#: ../softwareproperties/kde/DialogEdit.py:41 ../data/glade/main.glade.h:18
+msgid "Source code"
+msgstr "Lähdekoodi"
+
+#: ../softwareproperties/SoftwareProperties.py:360
+msgid "(Source Code)"
+msgstr "(lähdekoodi)"
+
+#: ../softwareproperties/SoftwareProperties.py:366
+msgid "Source Code"
+msgstr "Lähdekoodi"
+
+#: ../softwareproperties/gtk/DialogMirror.py:244
+msgid "New mirror"
+msgstr "Uusi peilipalvelin"
+
+#: ../softwareproperties/gtk/DialogMirror.py:302
+#, python-format
+msgid "Completed %s of %s tests"
+msgstr "Testeistä valmistunut %s/%s"
+
+#: ../softwareproperties/gtk/DialogMirror.py:353
+msgid "No suitable download server was found"
+msgstr "Sopivaa latauspalvelinta ei löytynyt"
+
+#: ../softwareproperties/gtk/DialogMirror.py:354
+msgid "Please check your Internet connection."
+msgstr "Tarkista Internet-yhteytesi toimivuus."
+
+#: ../softwareproperties/gtk/DialogMirror.py:370
+msgid "Canceling..."
+msgstr "Perutaan..."
+
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:528
+#: ../softwareproperties/gtk/SoftwarePropertiesGtk.py:548
+msgid "Active"
+msgstr "Aktiivinen"
+
+#. some known keys
+#: ../softwareproperties/gtk/DialogAptKey.py:37
+#: ../softwareproperties/AptAuth.py:33
+msgid "Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>"
+msgstr ""
+"Ubuntu-arkiston automaattinen allekirjoitusavain <ftpmaster@ubuntu.com>"
+
+#: ../softwareproperties/gtk/DialogAptKey.py:38
+#: ../softwareproperties/AptAuth.py:34
+msgid "Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>"
+msgstr ""
+"Ubuntun CD-vedosten automaattinen allekirjoitusavain <cdimage@ubuntu.com>"
+
+#: ../softwareproperties/gtk/DialogAptKey.py:78
+msgid "Choose a key-file"
+msgstr "Valitse avaintiedosto"
+
+#: ../softwareproperties/gtk/DialogAddSourcesList.py:39
+msgid "Add Software Channels"
+msgstr "Lisää ohjelmistokanavia"
+
+#: ../softwareproperties/gtk/DialogAddSourcesList.py:80
+msgid "Install software additionally or only from this source?"
+msgid_plural "Install software additionally or only from these sources?"
+msgstr[0] "Asenna ohjelmia ainostaan tästä lähteestä vai muiden lisäksi?"
+msgstr[1] "Asenna ohjelmia ainostaan näistä lähteistä vai muiden lisäksi?"
+
+#: ../softwareproperties/gtk/DialogAddSourcesList.py:85
+msgid ""
+"You can either add the following sources or replace your current sources by "
+"them. Only install software from trusted sources."
+msgstr ""
+"Voit joko lisätä seuraavat lähteet tai korvata niillä nykyiset "
+"ohjelmalähteet. Asenna ohjelmia vain luotetuista lähteistä."
+
+#: ../softwareproperties/gtk/DialogAddSourcesList.py:100
+msgid "There are no sources to install software from"
+msgstr "Käytössä ei ole yhtäkään ohjelmalähdettä, josta asentaa ohjelmistoja"
+
+#: ../softwareproperties/gtk/DialogAddSourcesList.py:101
+#, python-format
+msgid "The file '%s' does not contain any valid software sources."
+msgstr "Tiedosto \"%s\" ei sisällä sopivia ohjelmalähteitä."
+
+#. L10N: the example is of the format: deb http://ftp.debian.org sarge main
+#: ../softwareproperties/gtk/DialogAdd.py:60
+#, python-format
+msgid ""
+"The APT line includes the type, location and components of a repository, for "
+"example  '%s'."
+msgstr ""
+"APT-rivi sisältää ohjelmalähteen tyypin, sijainnin ja komponentit, "
+"esimerkiksi \"%s\"."
+
+#: ../data/glade/main.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../data/glade/main.glade.h:2
+msgid "<b>Automatic updates</b>"
+msgstr "<b>Automaattiset päivitykset</b>"
+
+#: ../data/glade/main.glade.h:3
+msgid "<b>Downloadable from the Internet</b>"
+msgstr "<b>Ladattavissa Internetistä</b>"
+
+#: ../data/glade/main.glade.h:4
+msgid "<b>Installable from CD-ROM/DVD</b>"
+msgstr "<b>Asennettavissa CD/DVD-levyltä</b>"
+
+#: ../data/glade/main.glade.h:5
+msgid "<b>Trusted software providers</b>"
+msgstr "<b>Luotetut ohjelmien tarjoajat</b>"
+
+#: ../data/glade/main.glade.h:6
+msgid "Add CD-ROM..."
+msgstr "Lisää CD-levy..."
+
+#: ../data/glade/main.glade.h:7
+msgid "Add..."
+msgstr "Lisää..."
+
+#: ../data/glade/main.glade.h:8
+msgid "Authentication"
+msgstr "Varmennus"
+
+#: ../data/glade/main.glade.h:9
+msgid "Download from:"
+msgstr "Hae lähteestä:"
+
+#: ../data/glade/main.glade.h:10
+msgid "Edit..."
+msgstr "Muokkaa..."
+
+#: ../data/glade/main.glade.h:11
+msgid "Import the public key from a trusted software provider"
+msgstr "Asenna julkinen avain luotetulta ohjelmistotoimittajalta"
+
+#: ../data/glade/main.glade.h:12
+msgid "Install _security updates without confirmation"
+msgstr "Asenna _turvallisuuspäivitykset kysymättä"
+
+#: ../data/glade/main.glade.h:13
+msgid ""
+"Keys are used to authenticate the correct source of software and so protect "
+"your computer from malicious software"
+msgstr ""
+"Avaimia käytetään ohjelmalähteiden varmentamiseksi, ja siten tietokoneen "
+"suojelemiseksi pahantahtoisilta ohjelmilta"
+
+#: ../data/glade/main.glade.h:14
+msgid "Only _notify about available updates"
+msgstr "_Huomauta vain saatavilla olevista päivityksistä"
+
+#: ../data/glade/main.glade.h:15
+msgid "Restore _Defaults"
+msgstr "Palauta _oletukset"
+
+#: ../data/glade/main.glade.h:16
+msgid "Restore the default keys of your distribution"
+msgstr "Palauta jakelusi oletusavaimet"
+
+#: ../data/glade/main.glade.h:19
+msgid "Statistics"
+msgstr "Tilastot"
+
+#: ../data/glade/main.glade.h:20
+msgid "Submit statistical information"
+msgstr "Lähetä tilastotietoja"
+
+#: ../data/glade/main.glade.h:21
+msgid "Third-Party Software"
+msgstr "Kolmas osapuoli"
+
+#: ../data/glade/main.glade.h:22
+msgid "To install from a CD-ROM or DVD, insert the medium into the drive."
+msgstr "Asentaaksesi CD- tai DVD-levyltä, aseta levy asemaan."
+
+#: ../data/glade/main.glade.h:23
+msgid "Updates"
+msgstr "Päivitykset"
+
+#: ../data/glade/main.glade.h:24
+msgid "_Check for updates:"
+msgstr "_Tarkista päivitykset:"
+
+#: ../data/glade/main.glade.h:25
+msgid "_Download all updates in the background"
+msgstr "_Lataa kaikki päivitykset taustalla"
+
+#: ../data/glade/main.glade.h:26
+msgid "_Import Key File..."
+msgstr "_Tuo avaintiedosto..."
+
+#: ../data/glade/dialogs.glade.h:1
+msgid ""
+"<b><big>Testing download servers</big></b>\n"
+"\n"
+"A series of tests will be done to find the best mirror for your location."
+msgstr ""
+"<b><big>Testataan peilipalvelimia</big></b>\n"
+"\n"
+"Sarja testejä tehdään parhaimman peilipalvelimen löytämiseksi."
+
+#: ../data/glade/dialogs.glade.h:9
+msgid "<b>Comment:</b>"
+msgstr "<b>Kommentti:</b>"
+
+#: ../data/glade/dialogs.glade.h:10
+msgid "<b>Components:</b>"
+msgstr "<b>Komponentit:</b>"
+
+#: ../data/glade/dialogs.glade.h:11
+msgid "<b>Distribution:</b>"
+msgstr "<b>Jakelu:</b>"
+
+#: ../data/glade/dialogs.glade.h:12
+msgid "<b>Type:</b>"
+msgstr "<b>Tyyppi:</b>"
+
+#: ../data/glade/dialogs.glade.h:13
+msgid "<b>URI:</b>"
+msgstr "<b>URI:</b>"
+
+#: ../data/glade/dialogs.glade.h:14
+msgid ""
+"<big><b>Enter the complete APT line of the repository that you want to add "
+"as source</b></big>"
+msgstr "<big><b>Syötä lisättävän ohjelmalähteen koko APT-rivi</b></big>"
+
+#: ../data/glade/dialogs.glade.h:15
+msgid "APT line:"
+msgstr "APT-rivi:"
+
+#: ../data/glade/dialogs.glade.h:16
+msgid ""
+"Binary\n"
+"Source"
+msgstr ""
+"Binääri\n"
+"Lähdekoodi"
+
+#: ../data/glade/dialogs.glade.h:18
+msgid "Choose _Server"
+msgstr "Valitse _palvelin"
+
+#: ../data/glade/dialogs.glade.h:19
+msgid "Choose a Download Server"
+msgstr "Valitse latauspalvelin"
+
+#: ../data/glade/dialogs.glade.h:20
+msgid "Edit Source"
+msgstr "Muokkaa lähdettä"
+
+#: ../data/glade/dialogs.glade.h:21
+msgid "Performs a connection test to find the best mirror for your location"
+msgstr "Suorittaa yhteystestin parhaan peilipalvelimen löytämiseksi"
+
+#: ../data/glade/dialogs.glade.h:22
+msgid "Protocol:"
+msgstr "Yhteyskäytäntö:"
+
+#: ../data/glade/dialogs.glade.h:23
+msgid "Scanning CD-ROM"
+msgstr "Tutkitaan CD-levyä"
+
+#: ../data/glade/dialogs.glade.h:24
+msgid "_Add Source"
+msgstr "L_isää lähde"
+
+#: ../data/glade/dialogs.glade.h:25
+msgid "_Reload"
+msgstr "_Lataa uudestaan"
+
+#: ../data/glade/dialogs.glade.h:26
+msgid "_Replace"
+msgstr "_Korvaa"
+
+#: ../data/glade/dialogs.glade.h:27
+msgid "_Select Best Server"
+msgstr "_Valitse paras palvelin"

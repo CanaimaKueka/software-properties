@@ -1,0 +1,13 @@
+Index: software-properties-0.60.debian/data/software-properties.desktop.in
+===================================================================
+--- software-properties-0.60.debian.orig/data/software-properties.desktop.in	2010-10-25 23:57:30.402765412 +0200
++++ software-properties-0.60.debian/data/software-properties.desktop.in	2010-10-25 23:57:48.546761500 +0200
+@@ -2,7 +2,7 @@
+ _Name=Software Sources
+ _GenericName=Software Sources
+ _Comment=Configure the sources for installable software and updates
+-Exec=gksu --desktop /usr/share/applications/software-properties.desktop /usr/bin/software-properties-gtk
++Exec=su-to-root -X -c /usr/bin/software-properties-gtk
+ Icon=software-properties
+ Terminal=false
+ X-MultipleArgs=false

@@ -1,0 +1,7 @@
+debian/tmp/usr/share/software-properties/glade
+debian/tmp/usr/lib/python*/site-packages/softwareproperties/gtk/*.py
+debian/tmp/usr/bin/software-properties-gtk
+debian/tmp/usr/share/mime/packages
+debian/tmp/usr/share/icons
+debian/tmp/usr/share/applications/software-properties.desktop
+debian/tmp/usr/share/gnome/help/software-properties

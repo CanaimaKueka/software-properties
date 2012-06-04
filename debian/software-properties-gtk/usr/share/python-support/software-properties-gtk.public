@@ -1,0 +1,12 @@
+pyversions=2.4-
+
+/usr/share/pyshared/softwareproperties/gtk/CdromProgress.py
+/usr/share/pyshared/softwareproperties/gtk/DialogAdd.py
+/usr/share/pyshared/softwareproperties/gtk/DialogAddSourcesList.py
+/usr/share/pyshared/softwareproperties/gtk/DialogAptKey.py
+/usr/share/pyshared/softwareproperties/gtk/DialogCacheOutdated.py
+/usr/share/pyshared/softwareproperties/gtk/DialogEdit.py
+/usr/share/pyshared/softwareproperties/gtk/DialogMirror.py
+/usr/share/pyshared/softwareproperties/gtk/SimpleGladeApp.py
+/usr/share/pyshared/softwareproperties/gtk/SoftwarePropertiesGtk.py
+/usr/share/pyshared/softwareproperties/gtk/dialogs.py

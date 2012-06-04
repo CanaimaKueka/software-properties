@@ -1,0 +1,55 @@
+.\" Copyright (C) 2008 Timo Jyrinki <timo.jyrinki@iki.fi>
+.\"
+.\" This is free software; you may redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as
+.\" published by the Free Software Foundation; either version 2,
+.\" or (at your option) any later version.
+.\"
+.\" This is distributed in the hope that it will be useful, but
+.\" WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\"You should have received a copy of the GNU General Public License along
+.\"with this program; if not, write to the Free Software Foundation, Inc.,
+.\"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+.TH software-properties-kde 8 "2008\-01\-02" 
+.SH NAME
+software-properties-kde \- a repository manager, KDE/Qt front end
+.SH SYNOPSIS
+.B software-properties-kde
+.RI [ OPTIONS... ]
+.SH DESCRIPTION
+Software Properties is a program for managing software repositories 
+you install software from. It provides an abstraction of the used apt 
+repositories, allowing managing distribution and independent software 
+vendor software sources easily.
+
+software-properties-kde is a KDE/Qt front end for the repository management.
+.SH OPTIONS
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+show help message and exit
+.TP
+\fB\-d\fR, \fB\-\-debug\fR
+print some debug information to the command line
+.TP
+\fB\-m\fR, \fB\-\-massive\-debug\fR
+print a lot of debug information to the command line
+.TP
+\fB\-n\fR, \fB\-\-no\-update\fR
+no update on repository change (useful if called from an external program)
+.TP
+\fB\-t TOPLEVEL\fR, \fB\-\-toplevel=TOPLEVEL\fR
+set x-window-id of the toplevel parent for the dialog (useful for embedding)
+.TP
+\fB\-e ENABLE_COMPONENT\fR, \fB\-\-enable\-component=ENABLE_COMPONENT\fR
+enable the specified component of the distribution's repositories
+.SH AUTHORS
+.B software-properties-kde
+is written by Michiel Sikkes <michiel@eyesopened.nl>, Michael Vogt <michael.vogt@ubuntu.com>, Sebastian Heinlein <glatzor@ubuntu.com> and Jonathan Riddell <jriddell@ubuntu.com>.
+.P
+This manual page was written by Timo Jyrinki <timo.jyrinki@iki.fi>, for 
+the Debian project (but may be used by others).
+.SH SEE ALSO
+software-properties-gtk(8)

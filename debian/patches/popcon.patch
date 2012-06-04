@@ -1,0 +1,13 @@
+Index: software-properties-0.60.debian/softwareproperties/distro.py
+===================================================================
+--- software-properties-0.60.debian.orig/softwareproperties/distro.py	2010-10-25 22:43:33.967263970 +0200
++++ software-properties-0.60.debian/softwareproperties/distro.py	2010-10-25 22:44:28.950761834 +0200
+@@ -39,7 +39,7 @@
+                  "installed software and how often it was used will be "
+                  "collected and sent anonymously to the Debian project.\n\n"
+                  "The results are used to optimise the layout of the "
+-                 "installation CDs."))
++                 "installation CDs.</i>"))
+     else:
+         return(_("Submit the list of installed software and how often it is "
+                  "is used to the distribution project."))

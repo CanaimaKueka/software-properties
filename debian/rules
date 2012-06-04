@@ -1,0 +1,29 @@
+#!/usr/bin/make -f
+
+DEB_PYTHON_SYSTEM := pysupport
+
+export DH_VERBOSE=1
+
+include /usr/share/cdbs/1/rules/buildcore.mk
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/python-distutils.mk
+include /usr/share/cdbs/1/rules/simple-patchsys.mk
+include /usr/share/gnome-pkg-tools/1/rules/uploaders.mk
+include /usr/share/gnome-pkg-tools/1/rules/ubuntu-get-source.mk
+
+ifdef _cdbs_rules_debhelper
+$(patsubst %,binary-install/%,software-properties-gtk) :: binary-install/%:
+	dh_scrollkeeper -p$(cdbs_curpkg) $(DEB_DH_SCROLLKEEPER_ARGS)
+	$(if $(wildcard /usr/bin/dh_gconf),dh_gconf -p$(cdbs_curpkg) $(DEB_DH_GCONF_ARGS))
+	$(if $(wildcard /usr/bin/dh_desktop),dh_desktop -p$(cdbs_curpkg) $(DEB_DH_DESKTOP_ARGS))
+	$(if $(wildcard /usr/bin/dh_iconcache),dh_iconcache -p$(cdbs_curpkg) $(DEB_DH_DESKTOP_ARGS))
+endif
+
+binary-post-install/software-properties-gtk::
+	# replace Ubuntu logo with Debian one
+	uudecode < debian/software-properties.png.uu && \
+		mv software-properties.png \
+			debian/software-properties-gtk/usr/share/icons/hicolor/48x48/apps/
+
+clean::
+	rm -rf build/
