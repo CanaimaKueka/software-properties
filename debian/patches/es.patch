@@ -1,14 +1,14 @@
 Index: software-properties-0.60.debian/po/es.po
 ===================================================================
---- software-properties-0.60.debian.orig/po/es.po	2012-06-06 10:14:03.000000000 -0430
-+++ software-properties-0.60.debian/po/es.po	2012-06-06 10:18:11.000000000 -0430
+--- software-properties-0.60.debian.orig/po/es.po	2012-06-06 10:26:55.000000000 -0430
++++ software-properties-0.60.debian/po/es.po	2012-06-06 10:34:20.000000000 -0430
 @@ -10,8 +10,8 @@
  "Project-Id-Version: es\n"
  "Report-Msgid-Bugs-To: Sebastian Heinlein <sebi@glatzor.de>\n"
  "POT-Creation-Date: 2007-08-01 10:22+0200\n"
 -"PO-Revision-Date: 2006-10-16 04:15+0000\n"
 -"Last-Translator: Ricardo Pérez López <ricardo@iesdonana.org>\n"
-+"PO-Revision-Date: 2012-06-06 10:18-0400\n"
++"PO-Revision-Date: 2012-06-06 10:34-0400\n"
 +"Last-Translator: Sasha Solano <sashasolano@gmail.com>\n"
  "Language-Team: Spanish <traductores@gnome.org>\n"
  "MIME-Version: 1.0\n"
@@ -435,9 +435,9 @@ Index: software-properties-0.60.debian/po/es.po
  "\n"
  "A series of tests will be done to find the best mirror for your location."
  msgstr ""
-+"<b><big>Probando servidores de descarga</ big></ b>\n"
++"<b><big>Probando servidores de descarga</big></b>\n"
 +"\n"
-+" Se realizaran una serie de pruebas para encontrar el mejor repositorio para tu ubicación."
++"Se realizará una serie de pruebas para encontrar el mejor repositorio para tu ubicación."
  
  #: ../data/glade/dialogs.glade.h:9
  msgid "<b>Comment:</b>"
@@ -488,7 +488,8 @@ Index: software-properties-0.60.debian/po/es.po
  #: ../data/glade/dialogs.glade.h:27
 -#, fuzzy
  msgid "_Select Best Server"
- msgstr "Servidor maś cercano"
+-msgstr "Servidor maś cercano"
++msgstr "Servidor más cercano"
  
 -#, fuzzy
  #~ msgid "Add Software Channel"
