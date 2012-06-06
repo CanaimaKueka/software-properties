@@ -1,14 +1,14 @@
 Index: software-properties-0.60.debian/po/es.po
 ===================================================================
---- software-properties-0.60.debian.orig/po/es.po	2012-06-06 10:26:55.000000000 -0430
-+++ software-properties-0.60.debian/po/es.po	2012-06-06 10:34:20.000000000 -0430
+--- software-properties-0.60.debian.orig/po/es.po	2012-06-06 14:06:17.000000000 -0430
++++ software-properties-0.60.debian/po/es.po	2012-06-06 14:48:05.000000000 -0430
 @@ -10,8 +10,8 @@
  "Project-Id-Version: es\n"
  "Report-Msgid-Bugs-To: Sebastian Heinlein <sebi@glatzor.de>\n"
  "POT-Creation-Date: 2007-08-01 10:22+0200\n"
 -"PO-Revision-Date: 2006-10-16 04:15+0000\n"
 -"Last-Translator: Ricardo Pérez López <ricardo@iesdonana.org>\n"
-+"PO-Revision-Date: 2012-06-06 10:34-0400\n"
++"PO-Revision-Date: 2012-06-06 14:48-0400\n"
 +"Last-Translator: Sasha Solano <sashasolano@gmail.com>\n"
  "Language-Team: Spanish <traductores@gnome.org>\n"
  "MIME-Version: 1.0\n"
@@ -85,7 +85,7 @@ Index: software-properties-0.60.debian/po/es.po
 -"distribution project."
 -msgstr ""
 +msgid "Submit the list of installed software and how often it is is used to the distribution project."
-+msgstr "Envie la lista de software instalado y la frecuencia con que es usado en la distribucion"
++msgstr "Envié la lista de software instalado y la frecuencia con que es usado en la distribución"
  
  #: ../softwareproperties/kde/DialogMirror.py:68
  msgid "Mirror"
@@ -349,7 +349,7 @@ Index: software-properties-0.60.debian/po/es.po
 -#, fuzzy
  msgid "<b>Installable from CD-ROM/DVD</b>"
 -msgstr "<b>CDROM/DVD</b>"
-+msgstr "<b>Instable desde CDROM/DVD</b>"
++msgstr "<b>Instalable desde CDROM/DVD</b>"
  
  #: ../data/glade/main.glade.h:5
  msgid "<b>Trusted software providers</b>"
