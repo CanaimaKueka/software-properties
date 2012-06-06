@@ -2,8 +2,8 @@ Source: software-properties
 Section: admin
 Priority: optional
 XS-Python-Version: >= 2.4
-Maintainer: Gustavo Noronha Silva <kov@debian.org>
-Uploaders: @GNOME_TEAM@
+Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
+Uploaders:Sasha Veronica Solano Grosjean <sashasolano@gmail.com>
 Build-Depends: gnome-pkg-tools (>= 0.12.3), debhelper (>= 5.0.37.2), sharutils, python-support (>= 0.6.4), libxml-parser-perl, scrollkeeper, intltool, python-all-dev, python-distutils-extra (>= 1.90), cdbs (>= 0.4.42)
 Standards-Version: 3.7.2
 
