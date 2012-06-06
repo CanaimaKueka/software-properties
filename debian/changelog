@@ -20,8 +20,10 @@ software-properties (0.60.debian-3) unstable; urgency=low
 
   [ Sasha Veronica Solano Grosjean ]
   * [ff4384c] subiendo los repositorios
+  * [6bf8f2b] cambios realizados por el paquete
+  * [cbf86b3] subiendo los repositorios
 
- -- Sasha Veronica Solano Grosjean <sashasolano@gmail.com>  Wed, 06 Jun 2012 16:29:21 -0430
+ -- Sasha Veronica Solano Grosjean <sashasolano@gmail.com>  Wed, 06 Jun 2012 16:30:30 -0430
 
 software-properties (0.60.debian-2) unstable; urgency=low
 
