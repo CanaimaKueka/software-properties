@@ -1,8 +1,0 @@
-pyversions=2.4-
-
-/usr/share/pyshared/softwareproperties/AptAuth.py
-/usr/share/pyshared/softwareproperties/CountryInformation.py
-/usr/share/pyshared/softwareproperties/MirrorTest.py
-/usr/share/pyshared/softwareproperties/SoftwareProperties.py
-/usr/share/pyshared/softwareproperties/__init__.py
-/usr/share/pyshared/softwareproperties/distro.py

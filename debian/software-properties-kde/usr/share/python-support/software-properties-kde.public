@@ -1,7 +1,0 @@
-pyversions=2.4-
-
-/usr/share/pyshared/softwareproperties/kde/CdromProgress.py
-/usr/share/pyshared/softwareproperties/kde/DialogEdit.py
-/usr/share/pyshared/softwareproperties/kde/DialogMirror.py
-/usr/share/pyshared/softwareproperties/kde/SoftwarePropertiesKDE.py
-/usr/share/pyshared/softwareproperties/kde/__init__.py
