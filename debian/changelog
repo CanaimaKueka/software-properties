@@ -1,10 +1,27 @@
 software-properties (0.60.debian-3) unstable; urgency=low
 
+  [ Jordi Mallach ]
   * Reintroduce dropped changes from 0.60.debian-1.1 NMU.
   * Add manpages for software-properties-gtk and -kde.
     Thanks, Timo Jyrinki! (closes: #458471).
 
- -- Jordi Mallach <jordi@debian.org>  Sun, 14 Nov 2010 02:00:27 +0100
+  [ ssolano ]
+  * [f0cc4cc] devolviendo al estado inicial
+  * [6551738] aplicando cambio
+
+  [ Sasha Solano ]
+  * [4bfcecf] con parche aplicado y sin archivo series
+  * [65fcb3c] Cambiando archivo control
+  * [8969c79] Desaplicando el parche es.patch
+  * [6101118] completando traduccion
+  * [c11bf7f] acomodando traducción
+  * [c9d924b] Acomodando traducción denuevo
+  * [0ad7d33] Corrigiendo errores ortograficos
+
+  [ Sasha Veronica Solano Grosjean ]
+  * [ff4384c] subiendo los repositorios
+
+ -- Sasha Veronica Solano Grosjean <sashasolano@gmail.com>  Wed, 06 Jun 2012 16:29:21 -0430
 
 software-properties (0.60.debian-2) unstable; urgency=low
 
