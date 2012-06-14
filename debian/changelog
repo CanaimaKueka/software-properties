@@ -1,3 +1,10 @@
+software-properties (0.60.debian-4) unstable; urgency=low
+
+  * [bd57912] agregando debian/source
+  * [759e3d5] generando debian tar gz
+
+ -- Sasha Veronica Solano Grosjean <sashasolano@gmail.com>  Thu, 14 Jun 2012 12:40:08 -0430
+
 software-properties (0.60.debian-3) unstable; urgency=low
 
   [ Jordi Mallach ]
