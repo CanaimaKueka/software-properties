@@ -1,0 +1,4 @@
+python:Versions=2.5, 2.6
+python:Provides=python2.5-software-properties, python2.6-software-properties
+python:Depends=python (>= 2.4), python-support (>= 0.90.0)
+misc:Depends=
