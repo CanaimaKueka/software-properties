@@ -39,7 +39,7 @@ def get_popcon_description(distro):
                  "installed software and how often it was used will be "
                  "collected and sent anonymously to the Debian project.\n\n"
                  "The results are used to optimise the layout of the "
-                 "installation CDs.</i>"))
+                 "installation CDs."))
     else:
         return(_("Submit the list of installed software and how often it is "
                  "is used to the distribution project."))

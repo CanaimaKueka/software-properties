@@ -26,7 +26,7 @@
      </property>
      <widget class="QWidget" name="tab" >
       <attribute name="title" >
-       <string>Debian Software</string>
+       <string>Kubuntu Software</string>
       </attribute>
       <layout class="QGridLayout" >
        <property name="margin" >

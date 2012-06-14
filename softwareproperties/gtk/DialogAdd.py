@@ -55,8 +55,8 @@ class DialogAdd:
                                    distro.codename,
                                    distro.source_template.components[0].name)
     else:
-        example = "deb http://ftp.debian.org squeeze main"
-    # L10N: the example is of the format: deb http://ftp.debian.org squeeze main
+        example = "deb http://ftp.debian.org sarge main"
+    # L10N: the example is of the format: deb http://ftp.debian.org sarge main
     msg = _("The APT line includes the type, location and components of a "
             "repository, for example  '%s'.") % ("<i>%s</i>" % example)
     self.label_example_line.set_label(msg)
